@@ -13,6 +13,46 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.pagina {
+  position: relative;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 300px;
+  grid-template-areas: "conteudo lateral" "baixo lateral";
+  margin-top: 40px;
+}
+.lateral {
+  grid-area: lateral;
+  background: #e4eefa;
+  padding: 40px 15px;
+}
+.lateral .tl {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(240, 100, 6);
+}
+cite {
+  text-align: justify;
+  margin-bottom: 12px;
+  display: block;
+}
+.r {
+  color: rgb(255, 9, 247);
+  font-size: 14px;
+}
+.conteudo {
+  grid-area: conteudo;
+}
+.baixo {
+  grid-area: baixo;
+}
+.pagina h2,
+.pagina h3,
+.pagina h4 {
+  margin-bottom: 14px;
+}
+
 .container {
   margin: 10px auto;
   width: 800px;
@@ -276,6 +316,16 @@ ul {
 }
 .grid3 h3 {
   margin-bottom: 10px;
+}
+
+.lateral .tl {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(240, 100, 6);
+}
+.resposta {
+  color: rgb(255, 9, 247);
+  font-size: 14px;
 }
 
 @keyframes showup {
