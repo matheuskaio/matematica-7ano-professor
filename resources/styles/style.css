@@ -23,13 +23,14 @@ html {
 }
 .lateral {
   grid-area: lateral;
-  background: #e4eefa;
+  /* background: #e4eefa; */
+  background: #C0E2CA;
   padding: 40px 15px;
 }
 .lateral .tl {
   font-size: 20px;
   font-weight: bold;
-  color: rgb(240, 100, 6);
+  color: #009640;
 }
 cite {
   text-align: justify;
@@ -49,6 +50,7 @@ cite {
 .baixo {
   grid-area: baixo;
   padding-bottom: 80px;
+  /* background-color: #D8ECDD; */
 }
 .pagina h2,
 .pagina h3,
@@ -96,7 +98,7 @@ h1 {
 
 .cardcolor {
   border: none;
-  background: #7fc4ec;
+  background: #8cd8c1;
   border-radius: 8px;
 }
 
@@ -112,8 +114,13 @@ h1 {
 .subtitulo {
   font-size: 42px;
   font-weight: bold;
-  color: #0080c8;
+  color: #000;
   margin-bottom: 30px;
+}
+
+
+.calibre3{
+  color: #009640;;
 }
 
 .subtitulo {
@@ -324,7 +331,7 @@ ul {
 }
 .grid3 h1 {
   font-size: 18px;
-  color: #0080c8;
+  color: #009640;
   margin-bottom: 20px;
 }
 .grid3 h2 {
@@ -338,7 +345,7 @@ ul {
 .lateral .tl {
   font-size: 20px;
   font-weight: bold;
-  color: rgb(240, 100, 6);
+  color: #009640;
 }
 .resposta {
   color: rgb(255, 9, 247);
@@ -395,4 +402,26 @@ ul {
   .d-flex {
     flex-direction: column;
   }
+}
+
+
+.text-color-green {
+  color: #009640;
+}
+
+
+.card-com-fundo-cinza {
+  padding: 20px;
+  background-color: #F1F1F1;
+  margin: 20px auto;
+}
+
+.card-color-fundo-amarelo-claro{
+  padding: 20px;
+  background-color: #FFF7E2;
+  margin: 20px auto;
+}
+
+.forcar-topo{
+  align-items: flex-start;
 }
